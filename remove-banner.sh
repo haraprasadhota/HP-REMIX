@@ -1,12 +1,12 @@
 cd $HOME
-cd T-Remix
+cd HP-REMIX
 cd remove
 mv bash.bashrc $HOME 
 cd  /data/data/com.termux/files/usr/etc
 rm bash.bashrc
 clear
 cd $HOME
-cd T-Remix
+cd HP-REMIX
 bash ashi.sh
 cd $HOME
 mv bash.bashrc /data/data/com.termux/files/usr/etc
