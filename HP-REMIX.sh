@@ -30,7 +30,7 @@ apt-get install toilet -y
 # now installing ncurses-utils
 pkg install ncurses-utils -y
 #now installing SL
-Pkg install sl
+Pkg install sl -y
 
 
 clear
