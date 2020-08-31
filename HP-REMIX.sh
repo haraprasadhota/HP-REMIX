@@ -29,8 +29,8 @@ gem install lolcat
 apt-get install toilet -y
 # now installing ncurses-utils
 pkg install ncurses-utils -y
-#now installing SL
-Pkg install sl -y
+#Install sl
+pkg install sl -y
 
 
 clear
@@ -134,6 +134,12 @@ apt-get install nano -yq --silent
 echo " "
 
 apt-get install ruby -y
+
+echo " "
+
+apt-get install sl -y
+
+echo " "
 
 gem install ruby
 
