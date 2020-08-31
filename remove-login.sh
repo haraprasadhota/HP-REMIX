@@ -4,7 +4,7 @@ cd $HOME
 cd /data/data/com.termux/files/usr/etc
 rm -rf motd 
 cd $HOME
-cd T-Remix
+cd HP-REMIX
 cp motd /data/data/com.termux/files/usr/etc
 rm $PREFIX/bin/login.py
 cp old_login $PREFIX/bin/login
@@ -22,7 +22,7 @@ tput clear
 tput cup 3 30
 echo -e "\e[44m Like \e[41m Subscribe \e[m"
 tput cup 6 30
-echo -e "\x1b[42m BHAVIK TUTORIALS \x1b[m"
+echo -e "\x1b[42m KING HACKER \x1b[m"
 tput cup 9 0
 echo -en "\e[93m what is your name : \e[m"
 read answer
