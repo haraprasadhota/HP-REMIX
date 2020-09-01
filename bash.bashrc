@@ -3,7 +3,8 @@ command_not_found_handle() {
 }
 
 mpv /sdcard/hacker.mp3
-sl
+toilet -f mono12 -F gay Wait
+sl && sl && sl
 clear
 echo " "
 echo "      
