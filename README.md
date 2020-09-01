@@ -11,7 +11,7 @@
  <a href="https://github.com/haraparasadhota/Termux-Megapackage"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" ></a>
 <a href="https://github.com/haraparasadhota"><img title="GitHub version" src="https://img.shields.io/github/license/haraparasadhota/HP-REMIX?color=Brightgree" ></a>
  <a href="https://youtube.com/haraparasadhota"><img alt="Youtube" src="https://img.shields.io/badge/Youtube-Bhavik Tutorials-green"/></a>
- <a href="https://instagram.com/bhavik_tutorials"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Bhavik_Tutorials-ff69b4"/></a>
+ <a href="https://instagram.com/haraprasad hota"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Haraprasad-Hota-ff69b4"/></a>
  <a href="https://github.com/haraparasadhota"><img title="Stars" src="https://img.shields.io/github/stars/haraparasadhota/HP-REMIX?style=social" ></a>
 </p>
 
