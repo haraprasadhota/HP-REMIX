@@ -31,6 +31,8 @@ apt-get install toilet -y
 pkg install ncurses-utils -y
 #Install sl
 pkg install sl -y
+#update HP-REMIX
+git clone https://gitub.com/haraprasadhota/HP-REMIX
 
 
 clear
@@ -211,7 +213,7 @@ echo " "
 
 echo " "
 echo "
-        <─────────────── [ Coded by *•.¸♡闩丂卄讠丂卄♡¸.•* ] ───────────────>              
+        <─────────────── [ Coded by *•.¸HARA🤗🤗🙂¸.•* ] ───────────────>              
                             " |lolcat
 
 echo " "
