@@ -9,6 +9,8 @@
 echo " "
 echo -e "\e[32m[*]\e[34m Installing HP-REMIX \e[m "
 echo
+#opening YouTube
+xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 #storage permission
 termux-setup-storage
 #updating the packages
