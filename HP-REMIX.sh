@@ -227,6 +227,7 @@ bash login.sh
 bash ashi.sh
 sleep 3.0
 clear
+xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 tput clear
 tput cup 3 30
 echo -e "\e[44m Like \e[41m Subscribe \e[m"
