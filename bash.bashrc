@@ -10,6 +10,7 @@ toilet -f mono12 -F gay Wait
 sleep 3
 
 sl && sl && sl
+termux-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 clear
 echo " "
 echo "      
