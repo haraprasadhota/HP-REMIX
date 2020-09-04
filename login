@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/sh
+xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 echo " "
 echo " "
 echo " "
@@ -39,8 +40,8 @@ echo "
 echo " "
 echo " "
 
-
-
+xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
+xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 
 if [ $# = 0 ] && [ -f $PREFIX/etc/motd ] && [ ! -f ~/.hushlogin ]; then
 	cat $PREFIX/etc/motd
