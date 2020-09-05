@@ -1,5 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/sh
+
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
+
+termux-tts-speak opening termux
+
 echo " "
 echo " "
 echo " "
@@ -39,7 +43,7 @@ echo "
                               " |lolcat
 echo " "
 echo " "
-
+termux-tts-speak opening please wait
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 
