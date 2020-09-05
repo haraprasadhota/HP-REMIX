@@ -1,5 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 clear
+
+termux-tts-speak enter banner name
+
 echo " "
 echo " "
 echo -e "\e[33mEnter Your Banner Name \e[32m \n\n"
@@ -8,6 +11,8 @@ read varbanner
 echo " " 
 
 echo "toilet -f slant '           $varbanner'  -F gay | lolcat" > t-ban.txt
+
+termux-tts-speak enter terminal name
 
 echo -e "\e[33mEnter Your Terminal Name \e[32m  \n\n"
 read varterm
