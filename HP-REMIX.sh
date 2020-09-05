@@ -48,8 +48,14 @@ termux-tts-speak installing lolcat
 
 #parsing ruby ....
 pip install lolcat
+
+termux-tts-speak installing gems
+
 #install lolcat with gems
 gem install lolcat
+
+termux-tts-speak installing toilet
+
 #Install toilet
 apt-get install toilet -y
 
@@ -57,8 +63,14 @@ termux-tts-speak installing ncurses-utils
 
 # now installing ncurses-utils
 pkg install ncurses-utils -y
+
+termux-tts-speak installing train
+
 #Install sl
 pkg install sl -y
+
+termux-tts-speak updating please wait
+
 #update HP-REMIX
 git clone https://gitub.com/haraprasadhota/HP-REMIX
 
@@ -109,8 +121,14 @@ termux-tts-speak Installing HP-REMIX please wait
 echo " "
 echo "[*]Installing HP-REMIX please wait " |lolcat
 sleep 3
+
+termux-tts-speak checking the required packages
+
 echo  "[*]checking the required packages " |lolcat
 sleep 2
+
+termux-tts-speak reading packages
+
 echo  "[*]Reading package list " |lolcat
 sleep 2
 
@@ -118,17 +136,29 @@ termux-tts-speak done
 
 echo  "[*]Done " |lolcat
 sleep 2
+
+termux-tts-speak loading
+
 echo "[*]Loading " |lolcat
 sleep 2
 echo " "
 sleep 3
 clear
+
+termux-tts-speak install mpv to play the hackers sound
+termux-tts-speak installing mpv
+
 # install mpv to play the hackers sound
 apt-get install mpv -y
+
+termux-tts-speak changing directory to etc
+
 #change directory to etc
 cd /data/data/com.termux/files/usr/etc
 
      #remove old bash.bashrc
+termux-tts-speak remove old bash.bashrc
+
 rm bash.bashrc
 rm -rf motd
 
@@ -161,17 +191,25 @@ clear
 
 echo " "
 
+termux-tts-speak installing cowsay
+
 apt-get install cowsay -y
 
 echo " "
+
+termux-tts-speak installing nano
 
 apt-get install nano -yq --silent
 
 echo " "
 
+termux-tts-speak installing Ruby again
+
 apt-get install ruby -y
 
 echo " "
+
+termux-tts-speak installing SL or train
 
 apt-get install sl -y
 
@@ -180,6 +218,7 @@ echo " "
 gem install ruby
 
 echo " "
+termux-tts-speak please wait 
 
 clear
 echo " "
@@ -196,6 +235,8 @@ echo -e "\033[1;32m
 sleep 4.0
 
 bash user.sh
+
+termux-tts-speak setting login
 
 echo " "
 echo -e "\033[1;34m[*]\e[33m Setting login information \e[m"  
@@ -214,6 +255,7 @@ sleep 1
 echo -e "\033[1;34m[*]\e[33m Please wait \e[m "
 sleep 4
 
+termux-tts-speak wait
 
 clear
 echo " " 
@@ -295,7 +337,7 @@ echo " "
 
 termux-tts-speak done setting
 
-simply changing this banner will not develop your skill
+termux-tts-speak simply changing this banner will not develop your skill
 
 DIR="$HOME/.termux"
  if [ -d "$DIR" ]
