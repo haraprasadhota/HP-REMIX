@@ -1,4 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
+
+termux-tts-speak removing login please wait
+
 clear
 cd $HOME
 cd /data/data/com.termux/files/usr/etc
@@ -17,6 +20,8 @@ echo -e "\e[31m[\e[32m*\e[31m]\e[33mLoading\e[m "
 sleep 3
 echo -e "\e[31m[\e[32m*\e[31m]\e[33mSuccessfully Removed Login\e[m "
 sleep 2
+
+termux-tts-speak successfully removed login
 
 tput clear
 tput cup 3 30
