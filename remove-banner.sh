@@ -1,4 +1,7 @@
 cd $HOME
+
+termux-tts-speak removing banner please wait
+
 cd HP-REMIX
 cd remove
 mv bash.bashrc $HOME 
@@ -15,6 +18,8 @@ echo -e "[*]\e[33m Open a new Session \e[m"
 echo -e  "[*]\e[33m Successfully Removed the banner \e[m "
 sleep 3.0
 cd $HOME
+
+termux-tts-speak successfully removed banner
 
 tput clear
 tput cup 3 30
