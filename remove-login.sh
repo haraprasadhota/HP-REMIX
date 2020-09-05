@@ -45,7 +45,7 @@ tput cup 17 23
     echo -e "\x1b[41m Please subsrcibe our channel \x1b[m"
 fi
 tput cup 20 0
-figlet -f slant "Bhavik Tutorials" |lolcat
+figlet -f slant "KING HACKER" |lolcat
 echo " "
 echo " "
 
