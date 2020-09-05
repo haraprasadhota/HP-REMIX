@@ -1,4 +1,9 @@
 #!/bin/bash
+
+termux-tts-speak please wait sometimes
+
+termux-tts-speak script made by king hacker
+
 progreSh() {
     LR='\033[1;31m'
     LG='\033[1;32m'
