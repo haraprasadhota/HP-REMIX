@@ -11,24 +11,50 @@ echo -e "\e[32m[*]\e[34m Installing HP-REMIX \e[m "
 echo
 #opening YouTube
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
+#installing termux-api 
+pkg install termux-api
+
+termux-tts-speak storage 
+
 #storage permission
 termux-setup-storage
+
+termux-tts-speak updating
+
 #updating the packages
 apt-get update -y
+
+termux-tts-speak upgrading
+
  #upgrading the packages
 apt-get upgrade -y
+
+termux-tts-speak installing python
+
  #installing python if not installed ;if install null
 apt-get install python -y
+
+termux-tts-speak installing figlet
+
 #packing up figlet
 apt-get install figlet -y
+
+termux-tts-speak installing ruby
+
 #Installing ruby
 apt-get  install ruby -y
+
+termux-tts-speak installing lolcat
+
 #parsing ruby ....
 pip install lolcat
 #install lolcat with gems
 gem install lolcat
 #Install toilet
 apt-get install toilet -y
+
+termux-tts-speak installing ncurses-utils
+
 # now installing ncurses-utils
 pkg install ncurses-utils -y
 #Install sl
@@ -36,6 +62,7 @@ pkg install sl -y
 #update HP-REMIX
 git clone https://gitub.com/haraprasadhota/HP-REMIX
 
+termux-tts-speak the script made by king hacker
 
 clear
 echo " "
@@ -77,6 +104,8 @@ echo "
 
 sleep 5
 
+termux-tts-speak Installing HP-REMIX please wait 
+
 echo " "
 echo "[*]Installing HP-REMIX please wait " |lolcat
 sleep 3
@@ -84,6 +113,9 @@ echo  "[*]checking the required packages " |lolcat
 sleep 2
 echo  "[*]Reading package list " |lolcat
 sleep 2
+
+termux-tts-speak done
+
 echo  "[*]Done " |lolcat
 sleep 2
 echo "[*]Loading " |lolcat
@@ -175,6 +207,9 @@ sleep 5
 echo -e "\033[1;34m[*]\e[33m Securing termux-login \e[m "
 sleep 2
 echo -e "\033[1;34m[*]\e[33m Done \e[m "
+
+termux-tts-speak done
+
 sleep 1
 echo -e "\033[1;34m[*]\e[33m Please wait \e[m "
 sleep 4
@@ -228,6 +263,9 @@ bash ashi.sh
 sleep 3.0
 clear
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
+
+termux-tts-speak please subscribe our channel
+
 tput clear
 tput cup 3 30
 echo -e "\e[44m Like \e[41m Subscribe \e[m"
@@ -254,6 +292,10 @@ figlet -f slant "KING HACKER" |lolcat
 echo " "
 echo " "
 #done setting up
+
+termux-tts-speak done setting
+
+simply changing this banner will not develop your skill
 
 DIR="$HOME/.termux"
  if [ -d "$DIR" ]
