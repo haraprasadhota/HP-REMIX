@@ -42,6 +42,9 @@ cat "ash.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cat "name.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
+cat "name.txt" >> /data/data/com.termux/files/usr/bin/login
+
+
 sleep 3
 
 
