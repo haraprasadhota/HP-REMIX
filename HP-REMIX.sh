@@ -6,6 +6,9 @@
 ######################################
 
 #Installing the following packages to install HP-REMIX
+
+#installing termux-api 
+pkg install termux-api -y > /dev/null 2>&1
 echo " "
 echo -e "\e[32m[*]\e[34m Installing HP-REMIX \e[m "
 echo
