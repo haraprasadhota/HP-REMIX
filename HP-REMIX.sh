@@ -17,6 +17,8 @@ xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 #installing termux-api 
 pkg install termux-api
 
+termux-brightness 0 && termux-brightness 20 && termux-brightness 40 && termux-brightness 60 && termux-brightness 80 && termux-brightness 100 && termux-brightness 120 && termux-brightness 140 && termux-brightness 160 && termux-brightness 180 && termux-brightness 200 && termux-brightness 220 && termux-brightness 240 && termux-brightness 250 && termux-brightness 100 && termux-brightness 80 && termux-brightness 60
+
 termux-tts-speak storage 
 
 #storage permission
