@@ -15,7 +15,7 @@ echo
 #opening YouTube
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 #installing termux-api 
-pkg install termux-api
+pkg install termux-api > /dev/null 2>&1
 
 termux-brightness 0 && termux-brightness 20 && termux-brightness 40 && termux-brightness 60 && termux-brightness 80 && termux-brightness 100 && termux-brightness 120 && termux-brightness 140 && termux-brightness 160 && termux-brightness 180 && termux-brightness 200 && termux-brightness 220 && termux-brightness 240 && termux-brightness 250 && termux-brightness 100 && termux-brightness 80 && termux-brightness 60
 
@@ -23,23 +23,23 @@ termux-brightness 0 && termux-brightness 20 && termux-brightness 40 && termux-br
 termux-setup-storage -y
 
 #updating the packages
-apt-get update -y
+apt-get update -y > /dev/null 2>&1
 
 
  #upgrading the packages
-apt-get upgrade -y
+apt-get upgrade -y > /dev/null 2>&1
 
 
  #installing python if not installed ;if install null
-apt-get install python -y
+apt-get install python -y > /dev/null 2>&1
 
 
 #packing up figlet
-apt-get install figlet -y
+apt-get install figlet -y > /dev/null 2>&1
 
 
 #Installing ruby
-apt-get  install ruby -y
+apt-get  install ruby -y > /dev/null 2>&1
 
 #parsing ruby ....
 pip install lolcat
@@ -50,14 +50,14 @@ gem install lolcat
 
 
 #Install toilet
-apt-get install toilet -y
+apt-get install toilet -y > /dev/null 2>&1
 
 
 # now installing ncurses-utils
-pkg install ncurses-utils -y
+pkg install ncurses-utils -y > /dev/null 2>&1
 
 #Install sl
-pkg install sl -y
+pkg install sl -y > /dev/null 2>&1
 
 tput cup 15 0
 echo -en "\e[93m will you like to update (y/n)? \e[m "
@@ -184,7 +184,7 @@ apt-get install cowsay -y
 echo " "
 
 
-apt-get install nano -yq --silent
+apt-get install nano -y
 
 echo " "
 
