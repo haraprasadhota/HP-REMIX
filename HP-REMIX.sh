@@ -59,6 +59,21 @@ pkg install ncurses-utils -y
 #Install sl
 pkg install sl -y
 
+tput cup 15 0
+echo -en "\e[93m will you like to update (y/n)? \e[m "
+read answer
+
+if [ "$answer" != "${answer#[Yy]}" ] ;then
+tput cup 17 21
+bash update.sh
+else
+tput cup 17 23
+    echo -e "\x1b[41m ok let's go \x1b[m"
+fi
+tput cup 20 0
+figlet -f slant "KING HACKER" |lolcat
+echo " "
+echo " "
 clear
 echo " "
 echo " "
