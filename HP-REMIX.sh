@@ -68,7 +68,7 @@ cd HP-REMIX
 cp -r -f * .. > temp
 cd ..
 rm -rf  HP-REMIX >> temp
-rm update.speedx >> temp
+rm h.x >> temp
 rm temp
 chmod +x HP-REMIX
 fi
