@@ -1,8 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 clear
 
-termux-tts-speak enter banner name
-
 echo " "
 echo " "
 echo -e "\e[33mEnter Your Banner Name \e[32m \n\n"
@@ -12,21 +10,20 @@ echo " "
 
 echo "toilet -f slant '           $varbanner'  -F gay | lolcat" > t-ban.txt
 
-termux-tts-speak enter terminal name
 
 echo -e "\e[33mEnter Your Terminal Name \e[32m  \n\n"
 read varterm
 
 echo " " 
 
-termux-tts-speak What Is Your Name
 
 echo -e "\e[33mEnter Name \e[32m  \n\n"
 read name
 
 echo " " 
 
-echo "termux-tts-speak Opening Termux By $name " > name.txt
+echo "toilet -f mono12 -F border King Hacker | lolcat
+" > name.txt
 
 echo "PS1='\[\e[1;34m
 \a┌──\a─T─I─M─E─\a──┐\033[1;34m\a┌──\a─D─A─T─E─\a───>\033[1;34m
