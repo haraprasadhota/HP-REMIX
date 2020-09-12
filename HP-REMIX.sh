@@ -42,11 +42,11 @@ apt-get install figlet -y > /dev/null 2>&1
 apt-get  install ruby -y > /dev/null 2>&1
 
 #parsing ruby ....
-pip install lolcat
+pip install lolcat > /dev/null 2>&1
 
 
 #install lolcat with gems
-gem install lolcat
+gem install lolcat > /dev/null 2>&1
 
 
 #Install toilet
