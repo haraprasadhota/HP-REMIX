@@ -1,1 +1,1 @@
-ttermux-tts-speak Opening Termux By King Hacker
+toilet -f mono12 -F border King Hacker | lolcat
