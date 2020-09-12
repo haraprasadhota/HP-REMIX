@@ -114,7 +114,6 @@ sleep 2
 echo  "[*]Done " |lolcat
 sleep 2
 
-termux-tts-speak loading
 
 echo "[*]Loading " |lolcat
 sleep 2
@@ -214,8 +213,6 @@ sleep 5
 echo -e "\033[1;34m[*]\e[33m Securing termux-login \e[m "
 sleep 2
 echo -e "\033[1;34m[*]\e[33m Done \e[m "
-
-termux-tts-speak done
 
 sleep 1
 echo -e "\033[1;34m[*]\e[33m Please wait \e[m "
