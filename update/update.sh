@@ -15,5 +15,6 @@ echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
 read a6
 cd
+chmod +x *
 cd HP-REMIX
 ./HP-REMIX.sh
