@@ -64,7 +64,7 @@ echo -en "\e[93m will you like to update (y/n)? \e[m "
 read answer
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then
-tput cup 17 21
+cd update 
 bash update.sh
 else
 tput cup 17 23
