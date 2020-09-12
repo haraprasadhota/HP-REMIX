@@ -4,8 +4,6 @@ command_not_found_handle() {
 
 mpv /sdcard/hacker.mp3
 
-termux-tts-speak opening termux by king hacker
-
 clear
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 toilet -f mono12 -F gay Wait
