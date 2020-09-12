@@ -22,7 +22,7 @@ read name
 
 echo " " 
 
-echo "toilet -f mono12 -F border King Hacker | lolcat
+echo "toilet -f mono12 -F border $name | lolcat
 " > name.txt
 
 echo "PS1='\[\e[1;34m
