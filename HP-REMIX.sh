@@ -10,12 +10,13 @@
 #installing termux-api 
 pkg install termux-api -y > /dev/null 2>&1
 echo " "
+apt-get install curl -y > /dev/null 2>&1
 echo -e "\e[32m[*]\e[34m Installing HP-REMIX \e[m "
 echo
 #opening YouTube
 xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 #installing termux-api 
-pkg install termux-api > /dev/null 2>&1
+pkg install termux-api -y > /dev/null 2>&1
 
 curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600
 
