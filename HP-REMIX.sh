@@ -17,6 +17,8 @@ xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
 #installing termux-api 
 pkg install termux-api > /dev/null 2>&1
 
+curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600
+
 termux-brightness 0 && termux-brightness 20 && termux-brightness 40 && termux-brightness 60 && termux-brightness 80 && termux-brightness 100 && termux-brightness 120 && termux-brightness 140 && termux-brightness 160 && termux-brightness 180 && termux-brightness 200 && termux-brightness 220 && termux-brightness 240 && termux-brightness 250 && termux-brightness 100 && termux-brightness 80 && termux-brightness 60
 
 #storage permission
@@ -58,7 +60,7 @@ pkg install ncurses-utils -y > /dev/null 2>&1
 
 #Install sl
 pkg install sl -y > /dev/null 2>&1
-
+sl && sl && curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600
 tput cup 15 0
 echo -en "\e[93m will you like to update (y/n)? \e[m "
 read answer
