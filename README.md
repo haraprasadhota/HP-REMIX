@@ -2,7 +2,7 @@
 
 # <p align="center">HP-REMIX
 <p align="center">
-  <img src="https://github.com/haraprasadhota/HP-REMIX/blob/master/Screenshot_20200915-074417.png">
+  <img src="https://github.com/haraprasadhota/HP-REMIX/blob/master/hara.gif">
 </p>
 <p align="center">Customize Your Termux
 <p align="center">
