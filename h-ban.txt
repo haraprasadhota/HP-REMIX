@@ -1,0 +1,1 @@
+figlet -f wetletter '                     HACKER' |lolcat 

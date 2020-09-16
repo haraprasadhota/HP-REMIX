@@ -1,21 +1,14 @@
 command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
-
-mpv /sdcard/hacker.mp3
-
-clear
-xdg-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
+tput civis
+sl | lolcat
 toilet -f mono12 -F gay Wait
-
-sleep 3
-
-sl && sl && sl
-termux-open https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A
+mpv /sdcard/hacker.mp3 > /dev/null 2>&1
 clear
-echo " "
+echo 
 echo "      
-                 < ━━━━━━━━━━━━━ [★] O N L I N E [★] ━━━━━━━━━━━━━ > " |lolcat                 
-echo "     "
+                 < ━━━━━━━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━━━━━━━ >  " |lolcat                 
+echo 
 
 
