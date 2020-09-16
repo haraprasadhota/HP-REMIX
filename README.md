@@ -70,7 +70,7 @@ $ bash HP-REMIX.sh
 ![Screenshot_20200901_152348](https://github.com/haraprasadhota/ph/blob/master/Screenshot_3.png)
 ![Screenshot_20200901_152938](https://github.com/haraprasadhota/ph/blob/master/Screenshot_4.png)
 ![Screenshot_20200901_153649](https://user-images.githubusercontent.com/64035221/93075838-00665f80-f6a4-11ea-8a60-0722bc8f4c07.jpg)
-![Screenshot_20200914_154729](https://user-images.githubusercontent.com/64035221/93075840-00fef600-f6a4-11ea-9eed-545395273e77.jpg)
+![Screenshot_20200914_154729](https://github.com/haraprasadhota/ph/blob/master/Screenshot.png)
 
 ***
 
