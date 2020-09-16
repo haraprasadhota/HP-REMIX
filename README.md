@@ -2,7 +2,7 @@
 
 # <p align="center">HP-REMIX
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64035221/89707674-0fb00a00-d98e-11ea-95c7-43000838eb1d.jpg">
+  <img src="https://github.com/haraprasadhota/ph/blob/master/hp78_1.png">
 </p>
 <p align="center">Customize Your Termux
 <p align="center">
@@ -65,7 +65,7 @@ $ bash HP-REMIX.sh
 
 #### After Installing _HP-REMIX_ Termux Looks Home Page:-
 
-![Screenshot_20200901_150716](https://user-images.githubusercontent.com/64035221/93075823-fd6b6f00-f6a3-11ea-9609-cb84e25cefda.jpg)
+![Screenshot_20200901_150716](https://github.com/haraprasadhota/ph/blob/master/screenshot_1.png)
 ![Screenshot_20200901_151852](https://user-images.githubusercontent.com/64035221/93075830-fe9c9c00-f6a3-11ea-8b64-c46b0495e876.jpg)
 ![Screenshot_20200901_152348](https://user-images.githubusercontent.com/64035221/93075834-ff353280-f6a3-11ea-925d-53b480d70ea2.jpg)
 ![Screenshot_20200901_152938](https://user-images.githubusercontent.com/64035221/93075836-ffcdc900-f6a3-11ea-89d2-8f52df0362e2.jpg)
