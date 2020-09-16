@@ -1,5 +1,7 @@
 #!$PREFIX/bin/bash
 
+# install sl to get train
+apt-get install sl -y > /dev/null 2>&1
 # instaling Python
 pkg install python -y > /dev/null 2>&1
 #installing ruby
@@ -8,6 +10,9 @@ pkg install ruby -y > /dev/null 2>&1
 pip install lolcat > /dev/null 2>&1
 #gem lolcat
 gem install lolcat > /dev/null 2>&1
+
+sl | lolcat && sl | lolcat
+
 echo " "
 echo " "
 echo " "
