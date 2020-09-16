@@ -15,7 +15,7 @@
 
 ###### <p align="center">*This is official repository maintained by us*
 ###### <p align="center"> *[**@haraprasad*](https://www.instagram.com/haraprasad/) 😊*
-###### <p align="center"> *You can check [youtube](https://youtube.com/bhaviktutorials)💝*
+###### <p align="center"> *You can check [youtube](https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A)💝*
 ---
 ### What is HP-REMIX??
 HP-REMIX or Termux will Help to Customise Your Termux in such a way that you will Enjoy using Termux it will give you a morden look and we also have add a feature of password,so now you can also set Password on your Termux and protect it so no one can login in your termux in absence of you.
@@ -87,7 +87,7 @@ $remove-HP-REMIX
 
 Developer / Author: [Hara]() / [King Hacker](https://github.com/haraprasadhota/)
 
-Company: [KING HACKER](https://www.youtube.com/channel/UCMhYgk0-nIHHtnRNkL9zpgQ)
+Company: [KING HACKER](https://www.youtube.com/channel/UCQLD2PaQjy2iL8EgJnVFn9A)
 
 ## To Know about Ethical Hacking , Android And Kali Linux Do Follow Us:-
 
