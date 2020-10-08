@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
+echo -e "\e[1:41m please wait a few minutes it may take a long time as your network connection 🔓🔍🔎"
 # install sl to get train
 apt-get install sl -y > /dev/null 2>&1
 # instaling Python
