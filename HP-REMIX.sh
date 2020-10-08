@@ -1,15 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo -e "\e[1;41m please wait a few minutes it may take a long time as your network connection 🔓🔍🔎"
 # install sl to get train
-apt-get install sl -y > /dev/null 2>&1
+apt-get install sl -y 
 # instaling Python
-pkg install python -y > /dev/null 2>&1
+pkg install python -y 
 #installing ruby
-pkg install ruby -y > /dev/null 2>&1
+pkg install ruby -y
 #lOlcat
-pip install lolcat > /dev/null 2>&1
+pip install lolcat 
 #gem lolcat
-gem install lolcat > /dev/null 2>&1
+gem install lolcat 
 
 sl | lolcat && sl | lolcat
 
@@ -33,22 +33,22 @@ termux-setup-storage
 echo
 
 # Updating the packages
-apt-get update -y > /dev/null 2>&1
+apt-get update -y
 
 # Upgrading the packages
 apt-get upgrade -y > /dev/null 2>&1
 
 # Installing python if not installed ;if install null
-apt-get install python -y > /dev/null 2>&1
+apt-get install python -y 
 
 # packing up figlet
-apt-get install figlet -y > /dev/null 2>&1
+apt-get install figlet -y 
 
 #Installing ruby
 apt-get install ruby -y > /dev/null 2>&1
 
 # install gem ruby
-gem install ruby > /dev/null 2>&1
+gem install ruby 
 
 #parsing ruby ....
 pip install lolcat > /dev/null 2>&1
@@ -57,13 +57,13 @@ pip install lolcat > /dev/null 2>&1
 gem install lolcat > /dev/null 2>&1
 
 #Install toilet
-apt-get install toilet -y > /dev/null 2>&1
+apt-get install toilet -y 
 
 # now installing ncurses-utils
-pkg install ncurses-utils -y > /dev/null 2>&1
+pkg install ncurses-utils -y 
 
 # install cowsay in termux if not installed
-apt-get install cowsay -y > /dev/null 2>&1
+apt-get install cowsay -y 
 
 #installing nano
 apt-get install nano -y > /dev/null 2>&1
