@@ -1,4 +1,4 @@
-#!$PREFIX/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 
 # install sl to get train
 apt-get install sl -y > /dev/null 2>&1
