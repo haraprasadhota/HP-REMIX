@@ -1,19 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to KING HACKER
 
-You can use the [editor on GitHub](https://github.com/haraprasadhota/HP-REMIX/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You Can set it [your termux theme](https://github.com/haraprasadhota/HP-REMIX) and feel like a pro hacker
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run [HP-REMIX](https://github.com/haraprasadhota) 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### ok let's start
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# HP-REMIX
+## The most advanced theme for termux
+### try and tell me
 
 - Bulleted
 - List
