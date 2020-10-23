@@ -10,6 +10,32 @@ pkg install ruby -y
 pip install lolcat 
 #gem lolcat
 gem install lolcat 
+spinlong ()
+{
+    echo -e "\n"
+    bar=" Thanks for installing my tool................... "
+    barlength=${#bar}
+    i=0
+    while ((i < 100)); do
+        n=$((i*barlength / 100))
+        printf "\e[00;32m\r%-${barlength}s\e[00m" "${bar:0:n}"
+        ((i += RANDOM%5+2))
+        sleep 0.02
+    done
+}
+spinlong2 ()
+{
+    echo -e "\n"
+    bar=" enjoy the tool 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂. "
+    barlength=${#bar}
+    i=0
+    while ((i < 100)); do
+        n=$((i*barlength / 100))
+        printf "\e[00;32m\r%-${barlength}s\e[00m" "${bar:0:n}"
+        ((i += RANDOM%5+2))
+        sleep 0.02
+    done
+}
 
 sl | lolcat && sl | lolcat
 
@@ -854,6 +880,9 @@ fi
 cd $HOME
 echo "bell-character=ignore" >> /data/data/com.termux/files/home/.termux/termux.properties && termux-reload-settings
 echo
+spinning
+spinlong2
+
 
 echo " "
 echo " "
